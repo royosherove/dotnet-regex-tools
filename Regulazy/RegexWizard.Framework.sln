@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexWizard.Framework", "RegexWizard.Framework\RegexWizard.Framework.csproj", "{01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexWizard.Framework.Tests", "RegexWizard.Framework.Tests\RegexWizard.Framework.Tests.csproj", "{A39657CC-06AB-482F-A548-802D5B7038FB}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4532F999-5621-496D-8ACE-DEDA10CBE2D5}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+		TODO.txt = TODO.txt
+	EndProjectSection
+	ProjectSection(FolderStartupServices) = postProject
+		{B4F97281-0DBD-4835-9ED8-7DFB966E87FF} = {B4F97281-0DBD-4835-9ED8-7DFB966E87FF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regulazy.UI", "Regulazy.UI\Regulazy.UI.csproj", "{D047543A-EEF0-4D3E-8BE1-FD0DF6725F47}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regulazy.UISupport", "Regulazy.UISupport\Regulazy.UISupport.csproj", "{610549A4-C6A5-4D52-981C-FDC6FCD1DEEA}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regulazy.UISupport.Tests", "Regulazy.UISupport.Tests\Regulazy.UISupport.Tests.csproj", "{90925037-65A8-4781-B2B4-5ADD9ADCD161}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexWizard.TemplateEngine", "RegexWizard.TemplateEngine\RegexWizard.TemplateEngine.csproj", "{8ECF3FA8-C211-4817-972A-F7A9F8C7CE3A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexWizard.TemplateEngine.Tests", "RegexWizard.TemplateEngine.Tests\RegexWizard.TemplateEngine.Tests.csproj", "{84B969DE-1649-4977-8C92-5973E3FC09ED}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = RegexWizard.Framework.vsmdi
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39657CC-06AB-482F-A548-802D5B7038FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39657CC-06AB-482F-A548-802D5B7038FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39657CC-06AB-482F-A548-802D5B7038FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39657CC-06AB-482F-A548-802D5B7038FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D047543A-EEF0-4D3E-8BE1-FD0DF6725F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D047543A-EEF0-4D3E-8BE1-FD0DF6725F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D047543A-EEF0-4D3E-8BE1-FD0DF6725F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D047543A-EEF0-4D3E-8BE1-FD0DF6725F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{610549A4-C6A5-4D52-981C-FDC6FCD1DEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610549A4-C6A5-4D52-981C-FDC6FCD1DEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610549A4-C6A5-4D52-981C-FDC6FCD1DEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610549A4-C6A5-4D52-981C-FDC6FCD1DEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90925037-65A8-4781-B2B4-5ADD9ADCD161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90925037-65A8-4781-B2B4-5ADD9ADCD161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90925037-65A8-4781-B2B4-5ADD9ADCD161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90925037-65A8-4781-B2B4-5ADD9ADCD161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ECF3FA8-C211-4817-972A-F7A9F8C7CE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECF3FA8-C211-4817-972A-F7A9F8C7CE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECF3FA8-C211-4817-972A-F7A9F8C7CE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECF3FA8-C211-4817-972A-F7A9F8C7CE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B969DE-1649-4977-8C92-5973E3FC09ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B969DE-1649-4977-8C92-5973E3FC09ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B969DE-1649-4977-8C92-5973E3FC09ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B969DE-1649-4977-8C92-5973E3FC09ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

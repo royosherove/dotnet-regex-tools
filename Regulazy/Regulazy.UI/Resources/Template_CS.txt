@@ -1,0 +1,17 @@
+public void SampleRegexUsage()
+{
+	string regex=@"$REGEX$";
+	RegexOptions options = $REGEXOPTIONS_CS$;
+	string input= @"$INPUT$";
+	
+	MatchCollection matches = Regex.Matches(input,regex,options);
+    foreach (Match match in matches)
+	{
+		Console.WriteLine(match.Value);
+        $FOREACH-GROUP$
+        Console.WriteLine("$GROUPNAME$:" + match.Groups["$GROUPNAME$"].Value);
+		$END-FOREACH-GROUP$
+	}
+}
+
+

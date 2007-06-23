@@ -1,0 +1,7 @@
+\.+		Anything multiple Times		-110
+(\\w)+		Word Chars
+(\\t)+		Multiple Tabs
+(\\r)+		Carriege Returns
+(\\n)+		New Linea
+(\\s)+		Whitespaces		100
+(\\d)+		Digits		100

@@ -1,0 +1,14 @@
+public Sub SampleRegexUsage()
+	Dim regex As String="$REGEX$"
+	Dim options as RegexOptions = $REGEXOPTIONS_VB$
+	Dim input As String= "$INPUT$"
+	
+	Dim  matches As MatchCollection= Regex.Matches(input,regex,options)
+    For Each found As Match in matches
+		Console.WriteLine(found.Value)
+        $FOREACH-GROUP$
+        Console.WriteLine("$GROUPNAME$:" & match.Groups("$GROUPNAME$").Value)
+		$END-FOREACH-GROUP$
+    End For
+End Sub
+

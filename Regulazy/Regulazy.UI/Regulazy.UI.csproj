@@ -1,0 +1,232 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D047543A-EEF0-4D3E-8BE1-FD0DF6725F47}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Regulazy.UI</RootNamespace>
+    <AssemblyName>ReguLazy</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>camel.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrowserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrowserForm.Designer.cs">
+      <DependentUpon>BrowserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrowserInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrowserInputForm.Designer.cs">
+      <DependentUpon>BrowserInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeGenDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeGenDialog.Designer.cs">
+      <DependentUpon>CodeGenDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MatchesTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MatchOptionsToolStrip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MatchOptionsToolStrip.Designer.cs">
+      <DependentUpon>MatchOptionsToolStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ScopeTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrowserForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BrowserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrowserInputForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BrowserInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeGenDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CodeGenDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MatchesTreeView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MatchesTreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MatchOptionsToolStrip.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MatchOptionsToolStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegexHintForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RegexHintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RegulazyResults.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RegulazyResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScopeTextInputCtl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScopeTextInputCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RegexHintForm.cs">
+    </Compile>
+    <Compile Include="RegexHintForm.Designer.cs">
+      <DependentUpon>RegexHintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RegulazyResults.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RegulazyResults.Designer.cs">
+      <DependentUpon>RegulazyResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScopeTextInputCtl.cs">
+    </Compile>
+    <Compile Include="ScopeTextInputCtl.Designer.cs">
+      <DependentUpon>ScopeTextInputCtl.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RegexWizard.Framework\RegexWizard.Framework.csproj">
+      <Project>{01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC}</Project>
+      <Name>RegexWizard.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RegexWizard.TemplateEngine\RegexWizard.TemplateEngine.csproj">
+      <Project>{8ECF3FA8-C211-4817-972A-F7A9F8C7CE3A}</Project>
+      <Name>RegexWizard.TemplateEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Regulazy.UISupport\Regulazy.UISupport.csproj">
+      <Project>{610549A4-C6A5-4D52-981C-FDC6FCD1DEEA}</Project>
+      <Name>Regulazy.UISupport</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="camel.ico" />
+    <Content Include="How To Edit Rules.txt" />
+    <Content Include="elephant.ico" />
+    <None Include="Custom.Rules">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Auto.Rules">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Default.rules" />
+    <None Include="Resources\Huh_RegexOptionsPane.gif" />
+    <None Include="Resources\Huh_ExpressionPane.gif" />
+    <None Include="Resources\Demo_Simple.gif" />
+    <None Include="Resources\Template_VB.txt" />
+    <None Include="Resources\Template_CS.txt" />
+    <None Include="Resources\RulesFile.txt" />
+    <None Include="Resources\Group.ico" />
+    <None Include="Resources\Regulator.ico" />
+    <None Include="Resources\Info.ico" />
+    <None Include="Resources\EmptyMatch.ico" />
+    <None Include="Resources\FullMatch.ico" />
+    <None Include="Resources\Capture.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSHTML">
+      <Guid>{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(ProjectDir)*.rules" "$(TargetDir)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

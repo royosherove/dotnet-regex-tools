@@ -1,0 +1,134 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{610549A4-C6A5-4D52-981C-FDC6FCD1DEEA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Regulazy.UISupport</RootNamespace>
+    <AssemblyName>Regulazy.UISupport</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomDrawRTB\CustomDrawRTB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomDrawRTB\NewLineMarker.cs" />
+    <Compile Include="CustomDrawRTB\SpaceMarker.cs" />
+    <Compile Include="CustomDrawRTB\TabMarker.cs" />
+    <Compile Include="CustomDrawRTB\VisualMarker.cs" />
+    <Compile Include="RichTextBoxCustom\SelectionHelper.cs" />
+    <Compile Include="RichTextBoxCustom\VisualMarkers\NamedParentMarker.cs" />
+    <Compile Include="SmartContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserActions\DefineScopeWithNameAction.cs" />
+    <Compile Include="UserActions\support\ScopeTextBoxUserAction.cs" />
+    <Compile Include="UserActions\support\ISuggestionProvider.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextBoxCustom\ActionsPalletteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichTextBoxCustom\ActionsPalletteForm.Designer.cs">
+      <DependentUpon>ActionsPalletteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextBoxCustom\DrawingHelper.cs" />
+    <Compile Include="RichTextBoxCustom\RTBDesigner.cs" />
+    <Compile Include="RichTextBoxCustom\ScopeAwareRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RichTextBoxCustom\VisualMarkers\DebuggingMarker.cs" />
+    <Compile Include="RichTextBoxCustom\VisualMarkers\DrawingParameters.cs" />
+    <Compile Include="RichTextBoxCustom\VisualMarkers\GroupNameMarker.cs" />
+    <Compile Include="RichTextBoxCustom\VisualMarkers\RegexMarker.cs" />
+    <Compile Include="RichTextBoxCustom\VisualMarkers\SpecialSelectionMarker.cs" />
+    <Compile Include="RichTextBoxCustom\VisualMarkers\VisualScopeActive.cs" />
+    <Compile Include="RichTextBoxCustom\VisualMarkers\VisualScopeActiveNotImplicitFlat.cs" />
+    <Compile Include="RichTextBoxCustom\VisualMarkers\VisualScopeDrawingLogic.cs" />
+    <Compile Include="RichTextBoxCustom\VisualMarkers\VisualScopeImplicitFlat.cs" />
+    <Compile Include="RichTextBoxCustom\VisualMarkers\VisualScopeMarker.cs" />
+    <Compile Include="RichTextBoxCustom\VisualMarkers\VisualScopeNonActiveNotImplicitFlat.cs" />
+    <Compile Include="RoundRectGraphics.cs" />
+    <Compile Include="ScopeActionPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ScopeActionPane.Designer.cs">
+      <DependentUpon>ScopeActionPane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserActions\support\ScopeActionsInfo.cs" />
+    <Compile Include="UserActions\support\ActionHelper.cs" />
+    <Compile Include="UserActions\support\UIActionSuggestionProvider.cs" />
+    <Compile Include="UserActions\support\ActionUserInput.cs" />
+    <Compile Include="UserActions\DefineEncapsulatingScopeAction.cs" />
+    <Compile Include="UserActions\ScopeRenameAction.cs" />
+    <Compile Include="UserActions\ApplySuggestionOnSelectionAction.cs" />
+    <Compile Include="UserActions\support\UserAction.cs" />
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichTextBoxCustom\ActionsPalletteForm.resx">
+      <DependentUpon>ActionsPalletteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RulesFile.txt.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RegexWizard.Framework\RegexWizard.Framework.csproj">
+      <Project>{01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC}</Project>
+      <Name>RegexWizard.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

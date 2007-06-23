@@ -1,0 +1,9 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="RegexWizard.Framework.Tests\bin\Debug\RegexWizard.Framework.Tests.dll" />
+    <assembly path="RegexWizard.TemplateEngine.Tests\bin\Debug\RegexWizard.TemplateEngine.Tests.dll" />
+    <assembly path="Regulazy.UISupport.Tests\bin\Debug\Regulazy.UISupport.Tests.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto" />
+</NUnitProject>

@@ -1,0 +1,34 @@
+^.$		Anything		-100
+^.+?$		1 or more anything		-110
+^.*?$		0 or more anything		-110
+^\w+?$		1 or more letters\numbers
+^\w$		letter or number
+^\\$		BackSlash
+^\t$		Tab
+^\t+$		Tabs
+^\r$		Carriege-Return
+^\r+$		Carriege-Returns
+^\v$		Vertical-Tab
+^\f$		Form Feed
+^\n$		New Line
+^\n+$		New-Lines
+^\e$		Escape
+^\s$		Whitespace		100
+^\s+$		1 or more Whitespaces		99
+^\s*$		0 or more Whitespaces		99
+^\d$		Digit		100
+^\d+$		Digits		99
+^\w+?@\w+\.\w{3,5}$		Email(Simple)		100
+^\d{2}/\d{2}/\d{4}$		Short Date(xx/xx/xxxx)		901
+^\d{2}/\d{2}/\d{2}$		Short Date(xx/xx/xx)		901
+^\d{2}\\\d{2}\\\d{4}$		Short Date(xx\xx\xxxx)		901
+^\d{2}\\\d{2}\\\d{2}$		Short Date(xx\xx\xx)		901
+^\d{2}-\d{2}-\d{4}$		Short Date(xx-xx-xxxx)		901
+^\d{2}-\d{2}-\d{2}$		Short Date(xx-xx-xx)		901
+^\-?\d+\.\d+$		Decimal Number(x.x)		901
+^\d{2}:\d{2}:\d{2}:\d{2}$		Time(xx:xx:xx:xx)		901
+^\d{2}:\d{2}:\d{2}$		Time(xx:xx:xx)		901
+^d{2}:\d{2}$		Time(xx:xx)		901
+^\d{2}/\d{2}/\d{4}\s\d{2}:\d{2}:\d{2}$		Date and time((xx/xx/xxxx xx:xx:xx)		901
+^\d{2}\\\d{2}\\\d{4}\s\d{2}:\d{2}:\d{2}$		Date and time((xx\xx\xxxx xx:xx:xx)		901
+^((\"[^\"\f\n\r\t\v\b]+\")|([\w\!\#\$\%\&\'\*\+\-\~\/\^\`\|\{\}]+(\.[\w\!\#\$\%\&\'\*\+\-\~\/\^\`\|\{\}]+)*))@((\[(((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9]))\.((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9]))\.((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9]))\.((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9])))\])|(((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9]))\.((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9]))\.((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9]))\.((25[0-5])|(2[0-4][0-9])|([0-1]?[0-9]?[0-9])))|((([A-Za-z0-9\-])+\.)+[A-Za-z\-]+))$		Email(Advanced)		100

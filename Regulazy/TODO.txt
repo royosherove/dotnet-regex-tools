@@ -1,0 +1,7 @@
+How to fix SmartAssembly load issue"
+Remove line:
+this.txtRegexInput.ActiveScope = (Scope) manager1.GetObject("txtRegexInput.ActiveScope");
+or
+this.txtRegexInput.ActiveScope = ((RegexWizard.Framework.Scope)(resources.GetObject("txtRegexInput.ActiveScope")));
+
+ 

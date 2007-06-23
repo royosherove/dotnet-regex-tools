@@ -1,0 +1,39 @@
+Editing Rules for Regulazy
+---------------------------
+Regulazy supports an extensible rule base which is located in the file "Default.Rules" in the progarm directory. You can edit the rule base at any time by editing that file (just back it up first!).
+You can add your own rules to regulazy by either editing that file or creating your own *.rules file inside the program's directory.
+Regulazy should automatically read all the *.rules files in its location when loading up.
+
+Note: 
+------
+If you have written rules that you think should be part of the default install of regulazy,
+
+
+Rule Layout:
+-----------------
+Here's an explanation of how the rules are written:
+Rules have a very simple layout:
+
+[Regular Expression to match][Tab][Description][Tab][Description][Tab][Probability(optional)]
+here's an example of the "match anything" rule in regulazy's rule file (Default.Rules):
+^.$		Anything		-100
+
+[Regular Expression to match]
+-----------------------------
+When the user selects text, Regulazy tries to match the selected text against the rules.
+If the Regular Expression matches the selected text, the rule is available in the user's right click menu.
+
+[Description]
+-------------
+The title of the menu that the user will see when right clicking on relevant text
+
+[Probability]
+-------------
+this value determines the order in which the rules appear to the user.
+The higher this value, the higher it will be in the user's right click menu.
+That's why the most basic rules have a negative value.
+We want to offer the "dumbest" rules last, and the "smarter" rules first.
+For example, The [Simple Date] rule has a proability of 901 becuase if the text you've selected
+matches that rule, it is probably the one that the you would like to use fo that text.
+
+There is not upper or lower limit to probability, but try to set it beweeen -100 and 999 to keep things simple.

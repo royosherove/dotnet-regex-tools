@@ -1,0 +1,20 @@
+^.$		Anything		-100
+^.+?$		1 or more anything		-110
+^.*?$		0 or more anything		-110
+^\w+?$		1 or more letters\numbers
+^\w$		letter or number
+^\\$		BackSlash
+^\t$		Tab
+^\t+$		Tabs
+^\r$		Carriege-Return
+^\r+$		Carriege-Returns
+^\v$		Vertical-Tab
+^\f$		Form Feed
+^\n$		New Line
+^\n+$		New-Lines
+^\e$		Escape
+^\s$		Whitespace		100
+^\s+$		1 or more Whitespaces		99
+^\s*$		0 or more Whitespaces		99
+^\d$		Digit		100
+^\d+$		Digits		99
