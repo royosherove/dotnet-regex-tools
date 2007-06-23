@@ -1,0 +1,8 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <StartProgram>C:\Program Files\TestDriven.NET 2.0\ProcessInvocation.exe</StartProgram>
+    <StartWorkingDirectory>C:\Program Files\TestDriven.NET 2.0</StartWorkingDirectory>
+    <StartArguments>/assemblyName:"TestDriven.TestRunner.Server, Version=2.0.1267.0, Culture=neutral, PublicKeyToken=50ecb853f8c6b8d2" /xmlName:"M:TestDriven.TestRunner.DebugTestRunner.run(System.String,System.String,System.String,System.String,System.String)" /parameter:"tcp://127.0.0.1:35121/e022b377-12f3-4c50-a34b-24a0c8f54038" /parameter:"tcp://127.0.0.1:35121/b213e802-0f13-4fd9-8b1e-1d434c2d4769" /parameter:"C:\SyncedDocs\Regulazy\Code\RegexWizard.Framework.Tests\bin\Debug\RegexWizard.Framework.Tests.dll" /parameter:"M:RegexWizard.Framework.Tests.ScopeTests.SetInnerScope_CrossingOnStartingImplicitScope_splitsImplicitScopeAnsUsesItInEncapsulator2" /parameter</StartArguments>
+    <StartAction>Program</StartAction>
+  </PropertyGroup>
+</Project>

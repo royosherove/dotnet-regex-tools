@@ -1,0 +1,13 @@
+bin\RegexWizard.Framework.Tests.Surrogate.dll
+bin\RegexWizard.Framework.Tests.Surrogate.pdb
+obj\Debug\RegexWizard.Framework.Tests.Surrogate.dll
+obj\Debug\RegexWizard.Framework.Tests.Surrogate.pdb
+bin\RuleFiles\OneRule.txt
+bin\RuleFiles\EmptyFile.txt
+bin\rules\Rules1.pl
+bin\rules\Rules.pl
+bin\RegexWizard.Framework.Tests.dll
+bin\RegexWizard.Framework.dll
+bin\RegexWizard.Framework.pdb
+obj\Debug\ResolveAssemblyReference.cache
+bin\RegexWizard.Framework.Tests.pdb

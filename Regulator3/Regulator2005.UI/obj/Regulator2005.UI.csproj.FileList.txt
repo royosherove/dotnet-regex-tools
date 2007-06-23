@@ -1,0 +1,7 @@
+bin\Debug\Regulator2005.UI.dll
+bin\Debug\Regulator2005.UI.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Regulator2005.UI.dll
+obj\Debug\Regulator2005.UI.pdb
+bin\Debug\\Regulator2005.Framework.dll
+bin\Debug\\Regulator2005.Framework.pdb

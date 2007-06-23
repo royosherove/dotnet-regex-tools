@@ -1,0 +1,35 @@
+README file for Regulator plugins source code
+---------------------------------------------
+for more info on writing plugins go to the regulator wiki.
+to get there use the regulator menu item "Help->Knowledge base".
+
+this directory contains the source for several dlls that contain plugins for the regulator.
+
+** CodeWriter :
+	 a simple plugin that shows how easy it is to create 
+	 a dialog based plugin by inheriting from the GenericDialogPlugin 
+	 class in the regulator SDK
+** Plugin Lister:
+	As simple plugin that demostrates using the most basic way of 
+	creating a plugin for the regulator: Implementing the IPlugin interface
+** Parser Plugin:
+	A simple plugin that uses code from Eric Gunnerson's Regex Designer project
+	to parse a regular expression. Demostrates a docked plugin.
+**Compile to assembly:
+	Compiles the current regex into a dll. Thanks to the RegexDesigner.Net source code share for this.
+
+
+NOTE: 
+--------
+The following source for the next 3 plugins uses the SyncFusion dll's and controls which are NOT FREE.
+However, the source is a still a valuable place to learn from
+	
+** Snippets:
+	The plugin that comes packaged with The Regulator and provides the ockable snippets pane.
+- RegexLib:
+	Contains two plugins:
+	** Web Search: 
+		Provides the "Web search" funcitonality using RegexLib.com's web services
+	** Submit Wizard:
+		Provides the "Submit to RegexLib" wizard in The Regulator.
+	

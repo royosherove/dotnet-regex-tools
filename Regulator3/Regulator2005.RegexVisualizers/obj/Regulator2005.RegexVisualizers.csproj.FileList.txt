@@ -1,0 +1,7 @@
+bin\Debug\Regulator2005.RegexVisualizers.dll
+bin\Debug\Regulator2005.RegexVisualizers.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Regulator2005.RegexVisualizers.MatchesVisualizerForm.resources
+obj\Debug\Regulator2005.RegexVisualizers.csproj.GenerateResource.Cache
+obj\Debug\Regulator2005.RegexVisualizers.dll
+obj\Debug\Regulator2005.RegexVisualizers.pdb

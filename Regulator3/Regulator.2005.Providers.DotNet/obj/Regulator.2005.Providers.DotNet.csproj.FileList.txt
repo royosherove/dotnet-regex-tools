@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Regulator.2005.Providers.DotNet.dll
+bin\Debug\Regulator.2005.Providers.DotNet.pdb
+bin\Debug\\Regulator2005.Framework.dll
+bin\Debug\\Regulator2005.Framework.pdb
+obj\Debug\Regulator.2005.Providers.DotNet.dll
+obj\Debug\Regulator.2005.Providers.DotNet.pdb
+obj\Debug\Regulator._2005.Providers.DotNet.Views.ReplaceView.resources
+obj\Debug\Regulator.2005.Providers.DotNet.csproj.GenerateResource.Cache
+obj\Debug\Regulator._2005.Providers.DotNet.Views.MatchesView.resources
+obj\Debug\Regulator2005.Framework.Controls.MatchesTree.resources

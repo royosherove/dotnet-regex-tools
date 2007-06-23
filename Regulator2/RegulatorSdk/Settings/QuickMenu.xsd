@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="QuickMenu" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="MenuItem">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="MenuItem" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" />
+			<xs:attribute name="value" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="QuickMenu" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element ref="MenuItem" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

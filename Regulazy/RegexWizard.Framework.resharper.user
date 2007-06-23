@@ -1,0 +1,740 @@
+<Configuration>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+  </ReFormatCode>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <EditorManager>
+    <RecentFiles>
+      <File id="610549A4-C6A5-4D52-981C-FDC6FCD1DEEA/d:UserActions/f:ApplySuggestionOnSelectionAction.cs" caret="1693" scrollPosition="" />
+      <File id="610549A4-C6A5-4D52-981C-FDC6FCD1DEEA/d:UserActions/d:support/f:ActionHelper.cs" caret="0" scrollPosition="" />
+      <File id="01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC/f:TextHelper.cs" caret="0" scrollPosition="" />
+      <File id="A39657CC-06AB-482F-A548-802D5B7038FB/f:PatternOptimizerTests.cs" caret="0" scrollPosition="" />
+      <File id="01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC/f:PatternOptimizer.cs" caret="0" scrollPosition="" />
+      <File id="610549A4-C6A5-4D52-981C-FDC6FCD1DEEA/d:RichTextBoxCustom/f:SelectionHelper.cs" caret="0" scrollPosition="" />
+      <File id="610549A4-C6A5-4D52-981C-FDC6FCD1DEEA/d:UserActions/f:DefineScopeWithNameAction.cs" caret="0" scrollPosition="" />
+      <File id="A39657CC-06AB-482F-A548-802D5B7038FB/f:RegexAdvisorTests.cs" caret="0" scrollPosition="" />
+      <File id="A39657CC-06AB-482F-A548-802D5B7038FB/f:ScopeSplitterTests.cs" caret="0" scrollPosition="" />
+      <File id="A39657CC-06AB-482F-A548-802D5B7038FB/f:AutoAdvisorTests.cs" caret="3707" scrollPosition="" />
+      <File id="D047543A-EEF0-4D3E-8BE1-FD0DF6725F47/f:Custom.Rules" caret="91" scrollPosition="" />
+      <File id="A39657CC-06AB-482F-A548-802D5B7038FB/f:ScopeTests.cs" caret="5497" scrollPosition="" />
+      <File id="610549A4-C6A5-4D52-981C-FDC6FCD1DEEA/d:CustomDrawRTB/f:VisualMarker.cs" caret="5308" scrollPosition="" />
+      <File id="01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC/f:Scope.cs" caret="9732" scrollPosition="" />
+      <File id="D047543A-EEF0-4D3E-8BE1-FD0DF6725F47/d:Controls/f:RegulazyResults.cs" caret="6779" scrollPosition="" />
+      <File id="01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC/f:RegexAdvisor.cs" caret="0" scrollPosition="" />
+      <File id="D047543A-EEF0-4D3E-8BE1-FD0DF6725F47/f:Auto.Rules" caret="0" scrollPosition="" />
+      <File id="A39657CC-06AB-482F-A548-802D5B7038FB/f:HTMLInputFinderTests.cs" caret="2611" scrollPosition="" />
+      <File id="01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC/f:HTMLInputFinder.cs" caret="1332" scrollPosition="" />
+      <File id="610549A4-C6A5-4D52-981C-FDC6FCD1DEEA/d:RichTextBoxCustom/f:ScopeAwareRichTextBox.cs" caret="14570" scrollPosition="" />
+      <File id="610549A4-C6A5-4D52-981C-FDC6FCD1DEEA/d:UserActions/d:support/f:UIActionSuggestionProvider.cs" caret="1114" scrollPosition="" />
+      <File id="D047543A-EEF0-4D3E-8BE1-FD0DF6725F47/f:Program.cs" caret="0" scrollPosition="" />
+      <File id="D047543A-EEF0-4D3E-8BE1-FD0DF6725F47/f:BrowserInputForm.cs" caret="3459" scrollPosition="" />
+      <File id="90925037-65A8-4781-B2B4-5ADD9ADCD161/f:CustomRTBTests.cs" caret="1244" scrollPosition="" />
+      <File id="610549A4-C6A5-4D52-981C-FDC6FCD1DEEA/d:CustomDrawRTB/f:CustomDrawRTB.cs" caret="10001" scrollPosition="" />
+      <File id="D047543A-EEF0-4D3E-8BE1-FD0DF6725F47/f:MainForm.cs" caret="0" scrollPosition="0|0" />
+      <File id="D047543A-EEF0-4D3E-8BE1-FD0DF6725F47/f:MainForm.Designer.cs" caret="0" scrollPosition="0|0" />
+      <File id="01A02D7C-0AE6-4C98-B6A5-83810C7FA5AC/f:ScopeSPlitter.cs" caret="914" scrollPosition="0|22" />
+    </RecentFiles>
+  </EditorManager>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:Regulazy.UI.RegulazyResults">
+      <Item value="RefreshResults" priority="0" />
+      <Item value="ResetMatches" priority="0" />
+      <Item value="SampleText" priority="4" />
+      <Item value="RegexText" priority="3" />
+      <Item value="UnhighlightInputSample" priority="0" />
+      <Item value="HighlightInputSample" priority="0" />
+      <Item value="RefreshMatches" priority="1" />
+      <Item value="ShowRects" priority="0" />
+      <Item value="RegXOptions" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.MatchCollection">
+      <Item value="Count" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.LinkLabel">
+      <Item value="Size" priority="0" />
+      <Item value="Location" priority="0" />
+      <Item value="Left" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RegexWizard.TemplateEngine.TemplateEngine">
+      <Item value="Process" priority="1" />
+      <Item value="Template" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripLabel">
+      <Item value="Text" priority="0" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.SizeF">
+      <Item value="Width" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MARKER">
+      <Item value="IntersectsWith" priority="0" />
+      <Item value="Graphics" priority="0" />
+      <Item value="Txt" priority="1" />
+      <Item value="Redraw" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MenuItem">
+      <Item value="Select" priority="1" />
+      <Item value="Tag" priority="2" />
+      <Item value="Click" priority="1" />
+      <Item value="DefaultItem" priority="0" />
+      <Item value="Popup" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Rectangle">
+      <Item value="Inflate" priority="1" />
+      <Item value="Height" priority="5" />
+      <Item value="IntersectsWith" priority="3" />
+      <Item value="Right" priority="1" />
+      <Item value="Top" priority="1" />
+      <Item value="Bottom" priority="2" />
+      <Item value="Left" priority="0" />
+      <Item value="X" priority="0" />
+      <Item value="Y" priority="2" />
+      <Item value="Width" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UISupport.ScopeActionsInfo">
+      <Item value="RuleSuggestions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="Combine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Drawing2D.LinearGradientBrush">
+      <Item value="Blend" priority="0" />
+      <Item value="InterpolationColors" priority="0" />
+      <Item value="GammaCorrection" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Regulazy.UISupport.UIActionHelper.m_SuggestionProvider">
+      <Item value="GetSuggestions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;RegexWizard.Framework.Suggestion&gt;">
+      <Item value="Clear" priority="4" />
+      <Item value="Add" priority="12" />
+      <Item value="Insert" priority="2" />
+      <Item value="Count" priority="7" />
+      <Item value="Equals" priority="0" />
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RegexWizard.TemplateEngine.TemplateInput">
+      <Item value="Pattern" priority="7" />
+      <Item value="Input" priority="2" />
+      <Item value="RegexOptions" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
+      <Item value="Matches" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TeamAgile.RegexKit.UiKit.MatchCollectionTree">
+      <Item value="Text" priority="0" />
+      <Item value="TextHighlighted" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Osherove.Controls.VisualMarker">
+      <Item value="IntersectsWithCursor" priority="0" />
+      <Item value="Redraw" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Windows.Forms" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabControl.TabPageCollection">
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.ScopeAwareRichTextBox.ScopeEventArgs">
+      <Item value="Scope" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Group">
+      <Item value="Index" priority="0" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabPage">
+      <Item value="Hide" priority="0" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:mshtml.IHTMLDocument2">
+      <Item value="body" priority="0" />
+      <Item value="selection" priority="0" />
+      <Item value="designMode" priority="1" />
+      <Item value="activeElement" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Drawing2D.Blend">
+      <Item value="Factors" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="PointToClient" priority="1" />
+      <Item value="Parent" priority="0" />
+      <Item value="PointToScreen" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RegexWizard.Framework.PatternOptimizer">
+      <Item value="AutoAddLineEndMarks" priority="1" />
+      <Item value="Optimize" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Menu.MenuItemCollection">
+      <Item value="Add" priority="1" />
+      <Item value="AddRange" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Regulazy.UI.ResultsView">
+      <Item value="RawRegex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PaintEventArgs">
+      <Item value="Graphics" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:mshtml.IHTMLTxtRange">
+      <Item value="queryCommandText" priority="0" />
+      <Item value="htmlText" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RegexWizard.Framework.Scope">
+      <Item value="Length" priority="13" />
+      <Item value="FindInnerScope" priority="5" />
+      <Item value="Root" priority="0" />
+      <Item value="EndPosInRootScope" priority="17" />
+      <Item value="IsRoot" priority="0" />
+      <Item value="Equals" priority="5" />
+      <Item value="innerMiddleScope" priority="0" />
+      <Item value="InnerMiddleScope" priority="27" />
+      <Item value="IsImplicit" priority="15" />
+      <Item value="Text" priority="30" />
+      <Item value="AdjustForInhaledScopeToTheLeft" priority="0" />
+      <Item value="MetaData" priority="0" />
+      <Item value="Name" priority="22" />
+      <Item value="isImplicit" priority="1" />
+      <Item value="IsExplicit" priority="9" />
+      <Item value="innerRightScope" priority="1" />
+      <Item value="SetInnerScope" priority="10" />
+      <Item value="DefineInnerScope" priority="19" />
+      <Item value="Location" priority="2" />
+      <Item value="GetInnerScopes" priority="3" />
+      <Item value="StartPosInRootScope" priority="31" />
+      <Item value="Suggestions" priority="25" />
+      <Item value="EncapsulatesTextPart" priority="2" />
+      <Item value="text" priority="0" />
+      <Item value="InnerLeftScope" priority="46" />
+      <Item value="EndPosInParent" priority="2" />
+      <Item value="ParentScope" priority="11" />
+      <Item value="IsFlat" priority="7" />
+      <Item value="FitsExactlyTo" priority="0" />
+      <Item value="InnerRightScope" priority="46" />
+      <Item value="FindScopesInRange" priority="0" />
+      <Item value="getInnerScopes" priority="0" />
+      <Item value="location" priority="2" />
+      <Item value="parentScope" priority="2" />
+      <Item value="innerLeftScope" priority="1" />
+      <Item value="RemoveInnerScope" priority="2" />
+      <Item value="Save" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="GetFiles" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms">
+      <Item value="Design" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeNode">
+      <Item value="SelectedImageKey" priority="1" />
+      <Item value="Nodes" priority="2" />
+      <Item value="Tag" priority="2" />
+      <Item value="ImageKey" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.SampleTextInput">
+      <Item value="Text" priority="0" />
+      <Item value="ActiveScopeChanged" priority="0" />
+      <Item value="ParentForm" priority="3" />
+      <Item value="ActiveScope" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UISupport.UserActions.ScopeRenameAction">
+      <Item value="Execute" priority="2" />
+      <Item value="Notes" priority="0" />
+      <Item value="GetInput" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.ScopeTextInputCtl.ScopeEventArgs">
+      <Item value="Scope" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string[]">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.ScopeTextInputCtl">
+      <Item value="WindowTarget" priority="0" />
+      <Item value="GetSurroundingRects" priority="0" />
+      <Item value="ShowTabs" priority="0" />
+      <Item value="Text" priority="1" />
+      <Item value="ShowSPaces" priority="0" />
+      <Item value="RootScope" priority="1" />
+      <Item value="ShowNewLines" priority="0" />
+      <Item value="Focus" priority="0" />
+      <Item value="InputMode" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.Design.DesignerVerbCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="X" priority="11" />
+      <Item value="Y" priority="7" />
+      <Item value="ToString" priority="0" />
+      <Item value="Offset" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PaintEventHandler">
+      <Item value="GetInvocationList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.ActionsPalletteForm">
+      <Item value="ShowInTaskbar" priority="0" />
+      <Item value="Location" priority="0" />
+      <Item value="BringToFront" priority="0" />
+      <Item value="Hide" priority="0" />
+      <Item value="TopLevel" priority="0" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;int&gt;">
+      <Item value="Add" priority="4" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Action&lt;object&gt;">
+      <Item value="Invoke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabControl">
+      <Item value="TabPages" priority="0" />
+      <Item value="SelectedTab" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RegexWizard.Framework.RegexWizardProjectData">
+      <Item value="RootScope" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripButton">
+      <Item value="Tag" priority="3" />
+      <Item value="Checked" priority="1" />
+      <Item value="Enabled" priority="0" />
+      <Item value="Click" priority="1" />
+      <Item value="CheckedChanged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Regex">
+      <Item value="Match" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Match">
+      <Item value="Index" priority="5" />
+      <Item value="Length" priority="5" />
+      <Item value="Equals" priority="0" />
+      <Item value="Value" priority="0" />
+      <Item value="Success" priority="1" />
+      <Item value="Groups" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="Text" priority="3" />
+      <Item value="Controls" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.Controls.MatchesTreeView">
+      <Item value="AfterSelect" priority="0" />
+      <Item value="Nodes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ImageList">
+      <Item value="Images" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.SampleTextInput.ScopeEventArgs">
+      <Item value="Scope" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox.ObjectCollection">
+      <Item value="Clear" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.Controls.ScopeTreeView">
+      <Item value="Dock" priority="0" />
+      <Item value="ShowScope" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.Controls.RichTextBoxCustom.VisualMarkers.GroupNameMarker">
+      <Item value="BrushColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.Controls.RichTextBoxCustom.VisualMarkers.VisualScope">
+      <Item value="OnDeactivate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="startPosInRootScope" priority="1" />
+      <Item value="ParentScope" priority="3" />
+      <Item value="IsRoot" priority="1" />
+      <Item value="ToLower" priority="0" />
+      <Item value="Title" priority="0" />
+      <Item value="Remove" priority="0" />
+      <Item value="Pattern" priority="0" />
+      <Item value="LearnForAutoScope" priority="0" />
+      <Item value="UserActions" priority="1" />
+      <Item value="Learn" priority="1" />
+      <Item value="Count" priority="0" />
+      <Item value="Add" priority="0" />
+      <Item value="RuleSuggestions" priority="1" />
+      <Item value="Message" priority="0" />
+      <Item value="ActiveScope" priority="0" />
+      <Item value="Suggestion" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.Design.DesignerActionListCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="ReadAllText" priority="0" />
+      <Item value="Exists" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RegexWizard.Framework.SplitPoint">
+      <Item value="StartIndex" priority="3" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="0" />
+      <Item value="Location" priority="0" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:mshtml.IHTMLElement">
+      <Item value="innerHTML" priority="0" />
+      <Item value="sourceIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyPressEventArgs">
+      <Item value="KeyChar" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.MatchOptionsToolStrip">
+      <Item value="ClientRectangle" priority="0" />
+      <Item value="IsSet" priority="0" />
+      <Item value="RegXOptions" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.RectangleF">
+      <Item value="IntersectsWith" priority="0" />
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Regulazy.UISupport.ActionHelper.txt">
+      <Item value="ActiveScope" priority="1" />
+      <Item value="SelectionLength" priority="0" />
+      <Item value="RootScope" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Color">
+      <Item value="Name" priority="0" />
+      <Item value="A" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:char">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UISupport.ActionList">
+      <Item value="Add" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ColorSyntaxEditor.CustomRTB">
+      <Item value="Paint" priority="0" />
+      <Item value="Lines" priority="0" />
+      <Item value="Font" priority="0" />
+      <Item value="Refresh" priority="0" />
+      <Item value="GetFirstCharIndexFromLine" priority="0" />
+      <Item value="SelectionLength" priority="1" />
+      <Item value="MouseUp" priority="0" />
+      <Item value="SelectionStart" priority="0" />
+      <Item value="SelectedText" priority="1" />
+      <Item value="CreateGraphics" priority="1" />
+      <Item value="GetLineFromCharIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;System.Drawing.Rectangle&gt;">
+      <Item value="Add" priority="2" />
+      <Item value="Count" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Graphics">
+      <Item value="Flush" priority="0" />
+      <Item value="GetHdc" priority="0" />
+      <Item value="MeasureString" priority="1" />
+      <Item value="DrawString" priority="1" />
+      <Item value="DrawLine" priority="2" />
+      <Item value="FillRectangle" priority="0" />
+      <Item value="Clip" priority="0" />
+      <Item value="Clear" priority="0" />
+      <Item value="DrawRectangle" priority="3" />
+      <Item value="ClipBounds" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolTip">
+      <Item value="Show" priority="2" />
+      <Item value="Hide" priority="1" />
+      <Item value="UseAnimation" priority="0" />
+      <Item value="InitialDelay" priority="1" />
+      <Item value="SetToolTip" priority="0" />
+      <Item value="ReshowDelay" priority="0" />
+      <Item value="ToolTipTitle" priority="0" />
+      <Item value="BackColor" priority="0" />
+      <Item value="UseFading" priority="0" />
+      <Item value="ToolTipIcon" priority="0" />
+      <Item value="ForeColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Single">
+      <Item value="Parse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UISupport.UserAction">
+      <Item value="UserCallback" priority="0" />
+      <Item value="HighlightCallback" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control.ControlCollection">
+      <Item value="Remove" priority="0" />
+      <Item value="Add" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PictureBox">
+      <Item value="Image" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MouseEventArgs">
+      <Item value="X" priority="4" />
+      <Item value="Button" priority="3" />
+      <Item value="Location" priority="9" />
+      <Item value="Y" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;RegexWizard.Framework.Scope&gt;">
+      <Item value="Add" priority="6" />
+      <Item value="Sort" priority="2" />
+      <Item value="Count" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UISupport.UserActions.ActionUserInput">
+      <Item value="UserInput" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RegexWizard.Framework.ScopeSplitter">
+      <Item value="AutoSplit" priority="2" />
+      <Item value="Split" priority="1" />
+      <Item value="IsSplitNeededForNewScopeToLive" priority="0" />
+      <Item value="IsMultipleSplittingNeededFor" priority="0" />
+      <Item value="GetSplitPoints" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RichTextBox">
+      <Item value="PointToClient" priority="0" />
+      <Item value="Text" priority="1" />
+      <Item value="WordWrap" priority="0" />
+      <Item value="Paint" priority="0" />
+      <Item value="VScroll" priority="0" />
+      <Item value="AutoWordSelection" priority="0" />
+      <Item value="Controls" priority="2" />
+      <Item value="MouseMove" priority="0" />
+      <Item value="TextChanged" priority="0" />
+      <Item value="GetPositionFromCharIndex" priority="1" />
+      <Item value="Resize" priority="0" />
+      <Item value="MouseHover" priority="0" />
+      <Item value="CreateGraphics" priority="2" />
+      <Item value="Refresh" priority="0" />
+      <Item value="FontChanged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.RegexHintForm">
+      <Item value="Hide" priority="1" />
+      <Item value="Location" priority="2" />
+      <Item value="ShowConnectors" priority="0" />
+      <Item value="Visible" priority="1" />
+      <Item value="Refresh" priority="0" />
+      <Item value="ShowTips" priority="1" />
+      <Item value="Invalidate" priority="0" />
+      <Item value="Left" priority="0" />
+      <Item value="HideTips" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeNodeCollection">
+      <Item value="Clear" priority="2" />
+      <Item value="Add" priority="2" />
+      <Item value="Find" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="0" />
+      <Item value="Empty" priority="30" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyEventArgs">
+      <Item value="Control" priority="0" />
+      <Item value="KeyCode" priority="1" />
+      <Item value="Handled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox">
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="StartupPath" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService">
+      <Item value="ShowDialog" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UISupport.SmartContextMenu">
+      <Item value="ShowForScope" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Osherove.Controls.CustomDrawRTB">
+      <Item value="fillRectWithColor" priority="0" />
+      <Item value="Text" priority="2" />
+      <Item value="ShowTabs" priority="0" />
+      <Item value="SelectionType" priority="0" />
+      <Item value="SelectionBackColor" priority="0" />
+      <Item value="BorderStyle" priority="0" />
+      <Item value="SelectionColor" priority="0" />
+      <Item value="Copy" priority="0" />
+      <Item value="DoPaint" priority="0" />
+      <Item value="ScrollToCaret" priority="0" />
+      <Item value="ShowSPaces" priority="0" />
+      <Item value="DrawBorder" priority="0" />
+      <Item value="GetSurroundingRects" priority="2" />
+      <Item value="Font" priority="2" />
+      <Item value="CreateGraphicsExtended" priority="0" />
+      <Item value="ClientRectangle" priority="0" />
+      <Item value="HideSelection" priority="2" />
+      <Item value="CreateGraphics" priority="0" />
+      <Item value="ShowNewLines" priority="0" />
+      <Item value="SelectionStart" priority="0" />
+      <Item value="drawRectWithColor" priority="2" />
+      <Item value="SelectAll" priority="0" />
+      <Item value="SelectionLength" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.WebBrowser">
+      <Item value="DocumentText" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.RegexOptions">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Osherove.Controls.DrawingParameters">
+      <Item value="Rect" priority="1" />
+      <Item value="StartPoint" priority="0" />
+      <Item value="EndPoint" priority="0" />
+      <Item value="Opacity" priority="2" />
+      <Item value="IsActive" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Char">
+      <Item value="IsWhiteSpace" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeNode[]">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ImageList.ImageCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Osherove.Controls.VisualMarker&gt;">
+      <Item value="Clear" priority="0" />
+      <Item value="Add" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.ScopeAwareRichTextBox">
+      <Item value="BackColor" priority="2" />
+      <Item value="Text" priority="4" />
+      <Item value="NonActiveScopeBorderColor" priority="0" />
+      <Item value="ActiveScope" priority="0" />
+      <Item value="NonActiveScopeFillColor" priority="0" />
+      <Item value="SpaceColor" priority="0" />
+      <Item value="InputMode" priority="0" />
+      <Item value="DrawBorder" priority="1" />
+      <Item value="GetSurroundingRects" priority="1" />
+      <Item value="Invalidate" priority="0" />
+      <Item value="Refresh" priority="2" />
+      <Item value="TriggerExpressionChanged" priority="0" />
+      <Item value="NonActiveScopeBorderWidth" priority="0" />
+      <Item value="CreateGraphics" priority="1" />
+      <Item value="GetCharIndexFromPosition" priority="0" />
+      <Item value="DrawFill" priority="0" />
+      <Item value="RootScope" priority="0" />
+      <Item value="SelectionStart" priority="1" />
+      <Item value="drawRectWithColor" priority="1" />
+      <Item value="SelectionType" priority="0" />
+      <Item value="SelectionLength" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.CodeGenDialog">
+      <Item value="ShowDialog" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RegexWizard.Framework.UnNamedGroupedSuggestionDecorator">
+      <Item value="Innersuggestion" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:int">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;UserAction&gt;">
+      <Item value="Capacity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeViewEventArgs">
+      <Item value="Node" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.RTBScopePainter">
+      <Item value="Refresh" priority="0" />
+      <Item value="ActiveScopeBorderColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider">
+      <Item value="GetObject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Regulazy.UI.RichTextBoxCustom.UserHelpers">
+      <Item value="GetSpecialSelection" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Font">
+      <Item value="Size" priority="4" />
+      <Item value="Style" priority="0" />
+      <Item value="FontFamily" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="StartsWith" priority="4" />
+      <Item value="Split" priority="0" />
+      <Item value="IndexOf" priority="0" />
+      <Item value="TrimStart" priority="1" />
+      <Item value="LastIndexOf" priority="0" />
+      <Item value="Replace" priority="3" />
+      <Item value="Length" priority="25" />
+      <Item value="EndsWith" priority="1" />
+      <Item value="Trim" priority="1" />
+      <Item value="ToLower" priority="1" />
+      <Item value="TrimEnd" priority="0" />
+      <Item value="Substring" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ContextMenu">
+      <Item value="Show" priority="0" />
+      <Item value="MenuItems" priority="1" />
+      <Item value="Popup" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RegexWizard.Framework.HTMLInputFinder">
+      <Item value="SearchTargetHTML" priority="1" />
+      <Item value="NormalizedSearchString" priority="0" />
+      <Item value="FoundHTML" priority="0" />
+      <Item value="SearchFor" priority="0" />
+      <Item value="Find" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Regulazy.UI.Properties.Settings">
+      <Item value="Default" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="BackColor" priority="0" />
+      <Item value="Location" priority="0" />
+      <Item value="KeyPress" priority="0" />
+      <Item value="AutoSize" priority="0" />
+      <Item value="Hide" priority="0" />
+      <Item value="Dock" priority="0" />
+      <Item value="GetCharFromPosition" priority="1" />
+      <Item value="Width" priority="0" />
+      <Item value="Visible" priority="0" />
+      <Item value="Text" priority="4" />
+      <Item value="KeyDown" priority="0" />
+      <Item value="GetPositionFromCharIndex" priority="1" />
+      <Item value="GetCharIndexFromPosition" priority="0" />
+      <Item value="LostFocus" priority="0" />
+      <Item value="SelectionStart" priority="0" />
+      <Item value="Parent" priority="1" />
+      <Item value="SelectAll" priority="0" />
+      <Item value="PointToClient" priority="0" />
+      <Item value="Focus" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Hashtable">
+      <Item value="Clear" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RegexWizard.Framework.RegexAdvisor">
+      <Item value="RuleCount" priority="0" />
+      <Item value="possibleMatches" priority="0" />
+      <Item value="Suggest" priority="3" />
+      <Item value="AutoScope" priority="0" />
+      <Item value="Learn" priority="6" />
+      <Item value="UseGroupsForUnnamedScopes" priority="4" />
+      <Item value="LearnFromFile" priority="2" />
+      <Item value="MaxSuggestionLength" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Regulazy.UI.Properties.Resources">
+      <Item value="RulesFile" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RegexWizard.Framework.Suggestion">
+      <Item value="VisitedByGroup" priority="0" />
+      <Item value="Description" priority="2" />
+      <Item value="ToString" priority="0" />
+      <Item value="RegexText" priority="5" />
+      <Item value="GetType" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

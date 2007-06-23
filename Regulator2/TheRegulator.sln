@@ -1,0 +1,121 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regulator.Sdk", "RegulatorSdk\Regulator.Sdk.csproj", "{B2D037E5-DC5C-4986-AADB-7FFC3E3454F8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRegulator", "TheRegulator\TheRegulator.csproj", "{ABA3024F-7525-4A23-8E76-7D41C87B096C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5293108C-1765-405A-8AA0-96F64ABE20C7} = {5293108C-1765-405A-8AA0-96F64ABE20C7}
+	EndProjectSection
+EndProject
+Project("{FE3BBBB6-72D5-11D2-9ACE-00C04F79A2A4}") = "TheRegulator.Plugins", "TheRegulator.Plugins\TheRegulator.Plugins.etp", "{508E390A-B673-459B-9372-31EF368F05DD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FE3BBBB6-72D5-11D2-9ACE-00C04F79A2A4}") = "TheRegulator.Utility", "TheRegulator.Utility\TheRegulator.Utility.etp", "{1795F93A-92C1-4434-BBDE-99978F8E009D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug-XML = Debug-XML
+		Release = Release
+		Release-XML = Release-XML
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B2D037E5-DC5C-4986-AADB-7FFC3E3454F8}.Debug.ActiveCfg = Debug|.NET
+		{B2D037E5-DC5C-4986-AADB-7FFC3E3454F8}.Debug.Build.0 = Debug|.NET
+		{B2D037E5-DC5C-4986-AADB-7FFC3E3454F8}.Debug-XML.ActiveCfg = Debug|.NET
+		{B2D037E5-DC5C-4986-AADB-7FFC3E3454F8}.Debug-XML.Build.0 = Debug|.NET
+		{B2D037E5-DC5C-4986-AADB-7FFC3E3454F8}.Release.ActiveCfg = Release|.NET
+		{B2D037E5-DC5C-4986-AADB-7FFC3E3454F8}.Release.Build.0 = Release|.NET
+		{B2D037E5-DC5C-4986-AADB-7FFC3E3454F8}.Release-XML.ActiveCfg = Release|.NET
+		{B2D037E5-DC5C-4986-AADB-7FFC3E3454F8}.Release-XML.Build.0 = Release|.NET
+		{ABA3024F-7525-4A23-8E76-7D41C87B096C}.Debug.ActiveCfg = Debug|.NET
+		{ABA3024F-7525-4A23-8E76-7D41C87B096C}.Debug.Build.0 = Debug|.NET
+		{ABA3024F-7525-4A23-8E76-7D41C87B096C}.Debug-XML.ActiveCfg = Debug|.NET
+		{ABA3024F-7525-4A23-8E76-7D41C87B096C}.Debug-XML.Build.0 = Debug|.NET
+		{ABA3024F-7525-4A23-8E76-7D41C87B096C}.Release.ActiveCfg = Release|.NET
+		{ABA3024F-7525-4A23-8E76-7D41C87B096C}.Release.Build.0 = Release|.NET
+		{ABA3024F-7525-4A23-8E76-7D41C87B096C}.Release-XML.ActiveCfg = Release|.NET
+		{ABA3024F-7525-4A23-8E76-7D41C87B096C}.Release-XML.Build.0 = Release|.NET
+		{E4AE2908-409F-4DE2-ABAF-6AD6E1642053}.Debug.ActiveCfg = Debug|.NET
+		{E4AE2908-409F-4DE2-ABAF-6AD6E1642053}.Debug.Build.0 = Debug|.NET
+		{E4AE2908-409F-4DE2-ABAF-6AD6E1642053}.Debug-XML.ActiveCfg = Debug|.NET
+		{E4AE2908-409F-4DE2-ABAF-6AD6E1642053}.Debug-XML.Build.0 = Debug|.NET
+		{E4AE2908-409F-4DE2-ABAF-6AD6E1642053}.Release.ActiveCfg = Release|.NET
+		{E4AE2908-409F-4DE2-ABAF-6AD6E1642053}.Release.Build.0 = Release|.NET
+		{E4AE2908-409F-4DE2-ABAF-6AD6E1642053}.Release-XML.ActiveCfg = Release|.NET
+		{E4AE2908-409F-4DE2-ABAF-6AD6E1642053}.Release-XML.Build.0 = Release|.NET
+		{F6CDD29F-74A3-4CB7-BD72-909A78DF366D}.Debug.ActiveCfg = Debug|.NET
+		{F6CDD29F-74A3-4CB7-BD72-909A78DF366D}.Debug.Build.0 = Debug|.NET
+		{F6CDD29F-74A3-4CB7-BD72-909A78DF366D}.Debug-XML.ActiveCfg = Debug|.NET
+		{F6CDD29F-74A3-4CB7-BD72-909A78DF366D}.Debug-XML.Build.0 = Debug|.NET
+		{F6CDD29F-74A3-4CB7-BD72-909A78DF366D}.Release.ActiveCfg = Release|.NET
+		{F6CDD29F-74A3-4CB7-BD72-909A78DF366D}.Release.Build.0 = Release|.NET
+		{F6CDD29F-74A3-4CB7-BD72-909A78DF366D}.Release-XML.ActiveCfg = Release|.NET
+		{F6CDD29F-74A3-4CB7-BD72-909A78DF366D}.Release-XML.Build.0 = Release|.NET
+		{E5733DFE-1810-4CAD-9D28-3E901FF3855E}.Debug.ActiveCfg = Debug|.NET
+		{E5733DFE-1810-4CAD-9D28-3E901FF3855E}.Debug.Build.0 = Debug|.NET
+		{E5733DFE-1810-4CAD-9D28-3E901FF3855E}.Debug-XML.ActiveCfg = Debug|.NET
+		{E5733DFE-1810-4CAD-9D28-3E901FF3855E}.Debug-XML.Build.0 = Debug|.NET
+		{E5733DFE-1810-4CAD-9D28-3E901FF3855E}.Release.ActiveCfg = Release|.NET
+		{E5733DFE-1810-4CAD-9D28-3E901FF3855E}.Release.Build.0 = Release|.NET
+		{E5733DFE-1810-4CAD-9D28-3E901FF3855E}.Release-XML.ActiveCfg = Release|.NET
+		{E5733DFE-1810-4CAD-9D28-3E901FF3855E}.Release-XML.Build.0 = Release|.NET
+		{5293108C-1765-405A-8AA0-96F64ABE20C7}.Debug.ActiveCfg = Debug|.NET
+		{5293108C-1765-405A-8AA0-96F64ABE20C7}.Debug.Build.0 = Debug|.NET
+		{5293108C-1765-405A-8AA0-96F64ABE20C7}.Debug-XML.ActiveCfg = Debug|.NET
+		{5293108C-1765-405A-8AA0-96F64ABE20C7}.Debug-XML.Build.0 = Debug|.NET
+		{5293108C-1765-405A-8AA0-96F64ABE20C7}.Release.ActiveCfg = Release|.NET
+		{5293108C-1765-405A-8AA0-96F64ABE20C7}.Release.Build.0 = Release|.NET
+		{5293108C-1765-405A-8AA0-96F64ABE20C7}.Release-XML.ActiveCfg = Release|.NET
+		{5293108C-1765-405A-8AA0-96F64ABE20C7}.Release-XML.Build.0 = Release|.NET
+		{BB7735DD-44C0-4AC7-8552-EF3FCF1DAA46}.Debug.ActiveCfg = Debug|.NET
+		{BB7735DD-44C0-4AC7-8552-EF3FCF1DAA46}.Debug-XML.ActiveCfg = Debug|.NET
+		{BB7735DD-44C0-4AC7-8552-EF3FCF1DAA46}.Debug-XML.Build.0 = Debug|.NET
+		{BB7735DD-44C0-4AC7-8552-EF3FCF1DAA46}.Release.ActiveCfg = Release|.NET
+		{BB7735DD-44C0-4AC7-8552-EF3FCF1DAA46}.Release.Build.0 = Release|.NET
+		{BB7735DD-44C0-4AC7-8552-EF3FCF1DAA46}.Release-XML.ActiveCfg = Release|.NET
+		{BB7735DD-44C0-4AC7-8552-EF3FCF1DAA46}.Release-XML.Build.0 = Release|.NET
+		{461D4E67-D488-4257-A3FA-499F9DCC6757}.Debug.ActiveCfg = Debug|.NET
+		{461D4E67-D488-4257-A3FA-499F9DCC6757}.Debug.Build.0 = Debug|.NET
+		{461D4E67-D488-4257-A3FA-499F9DCC6757}.Debug-XML.ActiveCfg = Debug|.NET
+		{461D4E67-D488-4257-A3FA-499F9DCC6757}.Debug-XML.Build.0 = Debug|.NET
+		{461D4E67-D488-4257-A3FA-499F9DCC6757}.Release.ActiveCfg = Release|.NET
+		{461D4E67-D488-4257-A3FA-499F9DCC6757}.Release.Build.0 = Release|.NET
+		{461D4E67-D488-4257-A3FA-499F9DCC6757}.Release-XML.ActiveCfg = Release|.NET
+		{461D4E67-D488-4257-A3FA-499F9DCC6757}.Release-XML.Build.0 = Release|.NET
+		{37EE0323-17FF-4433-8981-1B427BB8271F}.Debug.ActiveCfg = Debug
+		{37EE0323-17FF-4433-8981-1B427BB8271F}.Debug-XML.ActiveCfg = Debug
+		{37EE0323-17FF-4433-8981-1B427BB8271F}.Debug-XML.Build.0 = Debug
+		{37EE0323-17FF-4433-8981-1B427BB8271F}.Release.ActiveCfg = Release
+		{37EE0323-17FF-4433-8981-1B427BB8271F}.Release.Build.0 = Release
+		{37EE0323-17FF-4433-8981-1B427BB8271F}.Release-XML.ActiveCfg = Release
+		{37EE0323-17FF-4433-8981-1B427BB8271F}.Release-XML.Build.0 = Release
+		{29A793AD-06C7-4753-9795-417B5A4B55AE}.Debug.ActiveCfg = Debug
+		{29A793AD-06C7-4753-9795-417B5A4B55AE}.Debug-XML.ActiveCfg = Debug
+		{29A793AD-06C7-4753-9795-417B5A4B55AE}.Debug-XML.Build.0 = Debug
+		{29A793AD-06C7-4753-9795-417B5A4B55AE}.Release.ActiveCfg = Release
+		{29A793AD-06C7-4753-9795-417B5A4B55AE}.Release.Build.0 = Release
+		{29A793AD-06C7-4753-9795-417B5A4B55AE}.Release-XML.ActiveCfg = Release
+		{29A793AD-06C7-4753-9795-417B5A4B55AE}.Release-XML.Build.0 = Release
+		{A800308B-1E74-43D8-89EF-8713C8CAB873}.Debug.ActiveCfg = Debug|.NET
+		{A800308B-1E74-43D8-89EF-8713C8CAB873}.Debug.Build.0 = Debug|.NET
+		{A800308B-1E74-43D8-89EF-8713C8CAB873}.Debug-XML.ActiveCfg = Debug|.NET
+		{A800308B-1E74-43D8-89EF-8713C8CAB873}.Debug-XML.Build.0 = Debug|.NET
+		{A800308B-1E74-43D8-89EF-8713C8CAB873}.Release.ActiveCfg = Release|.NET
+		{A800308B-1E74-43D8-89EF-8713C8CAB873}.Release.Build.0 = Release|.NET
+		{A800308B-1E74-43D8-89EF-8713C8CAB873}.Release-XML.ActiveCfg = Release|.NET
+		{A800308B-1E74-43D8-89EF-8713C8CAB873}.Release-XML.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		TheRegulator\Regulator.exe.config = TheRegulator\Regulator.exe.config
+		Docs\Regulator2Help.chm = Docs\Regulator2Help.chm
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

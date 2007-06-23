@@ -1,0 +1,6 @@
+Deploying plugins for The Regulator:
+-------------------------------------
+
+Deploying plugins for The Regulator is really easy. 
+simply copy the plugin dll into the directory where the Regulator.exe file resides.
+The next time The Regulator is run it will automatically load the plugin.

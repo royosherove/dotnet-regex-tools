@@ -1,0 +1,305 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{ABA3024F-7525-4A23-8E76-7D41C87B096C}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "..\..\..\art\icons\Parcheesi - Win\Icons\water_buffalo.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Regulator"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = 'copy "$(ProjectDir)quickmenu.config" "$(TargetDir)"&#xd;&#xa;copy "$(ProjectDir)snippets.xml" "$(TargetDir)"&#xd;&#xa;copy "$(SolutionDir)RegexlibPlugin\bin\debug\RegexlibPlugin.*" "$(TargetDir)" &#xd;&#xa;copy "$(SolutionDir)SnippetPlugin\bin\debug\SnippetPlugin.*" "$(TargetDir)"&#xd;&#xa;copy "$(SolutionDir)UnitTestPlugin\bin\debug\CodeWriter.*" "$(TargetDir)"&#xd;&#xa;copy "$(SolutionDir)PluginLister\bin\debug\PluginLister.*" "$(TargetDir)"&#xd;&#xa;copy "$(SolutionDir)RegexParsingPlugin\bin\debug\RegexParsingPlugin.*" "$(TargetDir)"&#xd;&#xa;copy "$(SolutionDir)AssemblyCompilerPlugin\bin\debug\AssemblyCompilerPlugin.*" "$(TargetDir)"&#xd;&#xa;copy "$(SolutionDir)TheRegulator\history.txt" "$(TargetDir)"'
+                RootNamespace = "Regulator"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "C1.Win.C1Command"
+                    AssemblyName = "C1.Win.C1Command"
+                    HintPath = "..\..\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1Command.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studioasp"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
+                />
+                <Reference
+                    Name = "C1.Common"
+                    AssemblyName = "C1.Common"
+                    HintPath = "..\..\Program Files\ComponentOne Studio.NET\bin\C1.Common.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studioasp"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic"
+                    AssemblyName = "Microsoft.VisualBasic"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.VisualBasic.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "C1.Win.C1FlexGrid"
+                    AssemblyName = "C1.Win.C1FlexGrid"
+                    HintPath = "..\..\Program Files\ComponentOne Studio.NET\bin\C1.Win.C1FlexGrid.dll"
+                    AssemblyFolderKey = "hklm\dn\c1studioasp"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "System.DirectoryServices"
+                    AssemblyName = "System.DirectoryServices"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.DirectoryServices.dll"
+                />
+                <Reference
+                    Name = "Syncfusion.Grid"
+                    AssemblyName = "Syncfusion.Grid"
+                    HintPath = "..\..\Program Files\Syncfusion\Essential Suite\Assemblies\Syncfusion.Grid.dll"
+                    AssemblyFolderKey = "hklm\syncfusionassemblies"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "Syncfusion.Shared"
+                    AssemblyName = "Syncfusion.Shared"
+                    HintPath = "..\..\Program Files\Syncfusion\Essential Suite\Assemblies\Syncfusion.Shared.dll"
+                    AssemblyFolderKey = "hklm\syncfusionassemblies"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "System.Runtime.Serialization.Formatters.Soap"
+                    AssemblyName = "System.Runtime.Serialization.Formatters.Soap"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Runtime.Serialization.Formatters.Soap.dll"
+                />
+                <Reference
+                    Name = "Syncfusion.Tools"
+                    AssemblyName = "Syncfusion.Tools"
+                    HintPath = "..\..\Program Files\Syncfusion\Essential Suite\Assemblies\Syncfusion.Tools.dll"
+                    AssemblyFolderKey = "hklm\syncfusionassemblies"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "DundasWinChart"
+                    AssemblyName = "DundasWinChart"
+                    HintPath = "..\..\..\..\..\..\Program Files\Dundas Software\Charting\WinControl\bin\DundasWinChart.dll"
+                />
+                <Reference
+                    Name = "RegulatorSdk"
+                    Project = "{B2D037E5-DC5C-4986-AADB-7FFC3E3454F8}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Syncfusion.Edit"
+                    AssemblyName = "Syncfusion.Edit"
+                    HintPath = "..\..\..\..\..\..\Program Files\Syncfusion\Essential Suite\Assemblies\Syncfusion.Edit.dll"
+                    AssemblyFolderKey = "hklm\syncfusionassemblies"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AboutDialog.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AboutDialog.resx"
+                    DependentUpon = "AboutDialog.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AboutForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AboutForm.resx"
+                    DependentUpon = "AboutForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "history.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Main.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Main.resx"
+                    DependentUpon = "Main.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MainForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MainForm.resx"
+                    DependentUpon = "MainForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OptionsForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OptionsForm.resx"
+                    DependentUpon = "OptionsForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PaneDisplay.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "quickmenu.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Regex.ini"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "RegexDoc.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "RegexDocument.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RegexDocument.resx"
+                    DependentUpon = "RegexDocument.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Snippets.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "TimeCounter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ctl\RegexEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ctl\RegexEditor.resx"
+                    DependentUpon = "RegexEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <Folder
+                    RelPath = "Web References\"
+                    WebReferences = "TRUE"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

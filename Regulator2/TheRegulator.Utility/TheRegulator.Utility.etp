@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<EFPROJECT>
+    <GENERAL>
+        <BANNER>Microsoft Visual Studio Application Template File</BANNER>
+        <VERSION>1.00</VERSION>
+        <SourceControlSettings>
+            <ProjectName></ProjectName>
+            <AuxPath></AuxPath>
+            <LocalPath></LocalPath>
+            <Provider></Provider>
+        </SourceControlSettings>
+        <Views>
+            <ProjectExplorer>
+                <File>RegulatorSetup\RegulatorSetup.vdproj</File>
+                <File>Creating.Plugins.txt</File>
+                <File>RegulatorTests\RegulatorTests.csproj</File>
+                <File>RegulatorSetup10\RegulatorSetup10.vdproj</File>
+            </ProjectExplorer>
+        </Views>
+        <References>
+            <Reference>
+                <FILE>RegulatorSetup\RegulatorSetup.vdproj</FILE>
+                <GUIDPROJECTID>{37EE0323-17FF-4433-8981-1B427BB8271F}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>Creating.Plugins.txt</FILE>
+            </Reference>
+            <Reference>
+                <FILE>RegulatorTests\RegulatorTests.csproj</FILE>
+                <GUIDPROJECTID>{A800308B-1E74-43D8-89EF-8713C8CAB873}</GUIDPROJECTID>
+            </Reference>
+            <Reference>
+                <FILE>RegulatorSetup10\RegulatorSetup10.vdproj</FILE>
+                <GUIDPROJECTID>{29A793AD-06C7-4753-9795-417B5A4B55AE}</GUIDPROJECTID>
+            </Reference>
+        </References>
+    </GENERAL>
+</EFPROJECT>

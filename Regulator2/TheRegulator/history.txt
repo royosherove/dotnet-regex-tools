@@ -1,0 +1,155 @@
+History:
+---------------
+
+version 2.0.3
+---------------
+-added: Help file integrated with F1 on the main form
+-added: help menus
+ 
+version 2.0.2 
+------------------
+-added: Enable/Disable Intellisense support through the main options dialog
+
+-fixed: settings were not saved on application exit (except for proxy settings)
+-fixed: intellisense now is less intrusive, but still not perfect. hence the option to turn it off if you want to.
+
+version 2.0.1 beta 20/4/2004
+--------------
+
+-added: "Document Changed" dialog specifies the name of the document in question.
+-added: intellisense in the Regex window.  Can be configured by changing the quickmenu.config file.
+-added: Intellisense in the "Replace with" window. automatically list available named groups when typing "$" in the replace with input window
+-added: Regex intellisense will auto-select regions user needs to fill out (behavior like in the snippets plugin)
+ 
+-fixed: Regex text would sometimes revert back to the last-saved text, causing data loss in the text
+-fixed: multiple "Document Changed" dialogs appeared before closing a document or the application
+-fixed: "Replace with" text and "Input  file" text were not loaded properly from saved projects
+-fixed: "Support" link in "About" dialog now works
+
+TODO:
+ - Plugins should be loaded from a "Plugins" dir
+ - Quick Menu editor?
+ - generate better code from code generator plugin
+version 2.0 beta 20/3/2004
+-------------
+-added: installer
+-added: generate C# or vb.net code from regex(via tools menu)
+-added: regex Analyzer. Describes in plain language the regular expression(via view menu)
+-added: Compile to Assembly. Compiles the current regex into a dll. (via tools menu)
+-added: The Regulator can now accept a file name of type ".express" as a command line argument to open with
+-added: file association for ".express" files. Double clicking on an express file will launch a new instance of The Regulator with the document open.
+-added:  ability to specify a web address in the input file text area
+		must be preceded with http/ftp prefixes.
+-added: pressing "Enter" when writing an input file name/web will automatically refresh from that file(no need to click the refresh icon)
+
+-added: plugin creation ability
+	- Plugins are divided into two kinds: dialogs and dockable.
+		-dialogs are accessible via the "Tools" menu
+		-Dockable plugins are accessible via the "view" menu
+
+	Included plugins(with source):
+	- Plugin lister. will show all the currently loaded plugins.
+	- CodeWriter. Generates C# or VB.NET code from the regular expression
+	- Regex Analyzer. Describes in plain language the regular expression
+	- Compile to Assembly. Compiles the current regex into a dll.
+	- Snippets. same as in original version only as plugin
+	- Regexlib.com search. same as in original version only as plugin
+	- Regexlib.com submit. same as in original version only as plugin
+
+-removed: performance tab
+-changed: icons and links in the main form
+-fixed: Regex options toolbar bug fixed where un checking one of the options would remove all the other options as well (darn bit masking)
+-fixed: closing a single document did not prompt a "save before close" dialog if document was changed and not saved.
+-fixed: various problems related to inaccurate relative file paths (snippets loading and saving not working correctly for example)
+-fixed: importing a regular expression from web search now correctly places input segments into separate input rows (Replacing "|||" with new lines)
+
+version 1.02b2 18/11/2003
+-------------
+-added: split functionality. You have a new tab in the output tabs pane (bottom left) called "splits".
+			pressing F7 will call Regex.Split(input text) using the specified options and show them in the new tab
+			showing index and text columns for the results array.
+-added: Split icon(F7) in main toolbar
+-added: Load input from a file on disk. 
+			In the input text area there is a new toolbar that allows you to select an input file from which to load the text. 
+			You can refresh the text from the file using the new "refresh" button in that toolbar.
+-added: "Window" menu to navigate between open documents (known bug: empty menu item always exists there)
+-added: Shortcut keys to set focus on each document part:
+			CTRL+1: Regex text
+			CTRL+2: input text
+			CTRL+3: replace text 
+			CTRL+4: matches tree
+			CTRL+5: replace output
+			CTRL+6: split output
+
+
+
+-fixed: toolbar is now disabled when no document is open
+-fixed: you could open the same file multiple times. 
+			Now you'll get an alert and the existing document will be activated.
+
+-modified: Made input text and replace text fonts bigger.
+-modified: changed form font to Verdana for easier reading
+-modified: changed replace,match and cancel icons for easier understanding
+
+-removed: removed references for magic library from the project
+
+
+version 1.02b
+----------------
+IMPORTANT: on first use with this new version - "settings.config" file will be OVERWRITTEN
+---------	this means losing your recent documents list and proxy settings.
+		This will only occur once.
+		
+-added:	Settings file is now encrypted
+-added: each document will now show it's file name(if saved) in the tab header
+-added: open/save dialogs now have "all files" option  as well.
+-added: the ability to put tabbed documents into "groups".
+	 Just drag a document tab to the right or bottom of the screen and wait a second for the menu to show up.
+-added: most editor settings such as font, forecolor and others	 are now saved between sessions
+		(right click on active text editor and select "options")
+-added: docking windows state is now saved between sessions
+
+-fixed:	bad Form size settings were saved when form was minimized which caused it to load invisible
+-fixed: visible but collapsed panes were not activated on shortcut keys
+-fixed: perf chart would sometimes show matches and replaces without context
+-fixed: Perf chart now shows better formatted numbers
+-fixed: initial tree node selection after running a match would sometimes not be at the root node
+
+-modified: Docking panes are now using Syncfusion controls instead of Magic controls
+-modified: "Toolbox" is now called "snippets" both on menu and on pane
+-modified: Minimize to tray is now False by default
+-modified: Context menu on web search form reformatted for better description of actions
+
+
+
+version 1.02a 23/10/2003
+----------------
+added:
+-new option: View-Options-general: Fill unnamed captures in tree (for faster tree loading)
+-Tree view icons
+-tree view will automatically show expanded matches
+-Submit to regexlib.com wizard(File->Submit to regexlib) (NOTE: proxy password is saved in clear text!)
+	(currently the web service has some breaking bugs, but the functionality is there when its ready)
+-Brace matching support in text editor
+-QuickMenu: CTRL+Q or right click on the text editor for an extensive list of menu shortcuts for regex patterns
+	the menu also appears when right clicking on the toolbox form and selecting "Quick Add"
+-Making snippets that contain "<" and ">" tags in them will automatically create a selection region 
+	between the two tags when inserting then into the text editor. For example, inserting (?<<name>>)
+	will cause the text <name> to be automatically selected.
+-Recent files menu: File->Recent Files(up to 10)
+-"Save as" functionality (File->Save as)
+-Performance history view (View->Performance or F10)
+-Performance time for last replace/match will be displayed in the "Matches" or "Replaces" window caption
+-Proxy support (View->Options->Connection tab  or in web search window "Connection settings" link on the bottom
+-main form will remember its last height and width
+-Comments/Suggestions menu under "Help" menu
+-GDN workspace menu under "Help" menu
+- F9 or right click on editor and selected "Edit->Escape selection":
+	"Escape current selection" will turn any illegal regex chars in the selected text into escaped characters, 
+	for example, new line or spaces will be replaced with "\n" and \s" respectively.
+	
+fixed
+- Dbl clicking on a snippet only inserted it if a selection was not empty in the editor
+- various small bugs
+- could not connect through a proxy server
+- a match/replace would sometimes still appear as running even though the task was already finished

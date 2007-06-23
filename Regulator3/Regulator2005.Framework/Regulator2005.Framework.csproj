@@ -1,0 +1,97 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50110</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C306EC3-ED1A-491B-80DD-F6A2D1BBC9C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Regulator2005.Framework</RootNamespace>
+    <AssemblyName>Regulator2005.Framework</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Args\DisplayArgs.cs" />
+    <Compile Include="Args\MatchesEventArgs.cs" />
+    <Compile Include="Args\RefactoringArgs.cs" />
+    <Compile Include="Args\RegexEventArgs.cs" />
+    <Compile Include="Args\ReplaceEventArgsBase.cs" />
+    <Compile Include="Args\SplitEventArgs.cs" />
+    <Compile Include="Controls\ExtendedTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ExtendedTextBox.Designer.cs">
+      <DependentUpon>ExtendedTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PatternDesigner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PatternDesigner.Designer.cs">
+      <DependentUpon>PatternDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TextViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\TextViewer.Designer.cs">
+      <DependentUpon>TextViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ViewFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\ViewFormBase.Designer.cs">
+      <DependentUpon>ViewFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpressionOption.cs" />
+    <Compile Include="Interfaces\IRefactoringProvider.cs" />
+    <Compile Include="Interfaces\IRefactoringTask.cs" />
+    <Compile Include="Interfaces\IRegexEngine.cs" />
+    <Compile Include="Interfaces\IRegexView.cs" />
+    <Compile Include="Interfaces\IUseCase.cs" />
+    <Compile Include="Interfaces\IUseCaseProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegexEngineBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ExtendedTextBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExtendedTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PatternDesigner.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PatternDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TextViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TextViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ViewFormBase.resx">
+      <DependentUpon>ViewFormBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+</Project>

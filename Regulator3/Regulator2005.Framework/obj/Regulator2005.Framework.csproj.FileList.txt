@@ -1,0 +1,10 @@
+bin\Debug\Regulator2005.Framework.dll
+bin\Debug\Regulator2005.Framework.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Regulator2005.Framework.dll
+obj\Debug\Regulator2005.Framework.pdb
+obj\Debug\Regulator2005.Framework.Controls.PatternDesigner.resources
+obj\Debug\Regulator2005.Framework.csproj.GenerateResource.Cache
+obj\Debug\Regulator2005.Framework.Controls.ExtendedTextBox.resources
+obj\Debug\Regulator2005.Framework.Controls.TextViewer.resources
+obj\Debug\Regulator2005.Framework.Controls.ViewFormBase.resources

@@ -1,0 +1,5 @@
+bin\Debug\Regulator2005.Regex.dll
+bin\Debug\Regulator2005.Regex.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Regulator2005.Regex.dll
+obj\Debug\Regulator2005.Regex.pdb

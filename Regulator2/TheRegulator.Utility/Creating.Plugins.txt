@@ -1,0 +1,10 @@
+Creating Plugins for the regulator:
+-----------------------------------
+
+Creating Plugins for the regulator requires:
+- a reference to Regulatorsdk.dll
+- a class that implements Regulator.SDK.Plugins.IPlugin interface
+- OR a class that inherits from Regulator.SDK.Plugins.GenericDialogPlugin
+- OR a class that inherits from Regulator.SDK.Plugins.GenericDockablePlugin
+
+See the \Src directory for examples

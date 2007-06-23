@@ -1,0 +1,14 @@
+bin\Debug\RegexWizard.TemplateEngine.dll
+bin\Debug\RegexWizard.TemplateEngine.pdb
+bin\Debug\RegexWizard.Framework.dll
+bin\Debug\RegexWizard.Framework.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RegexWizard.TemplateEngine.dll
+obj\Debug\RegexWizard.TemplateEngine.pdb
+bin\Release\RegexWizard.TemplateEngine.dll
+bin\Release\RegexWizard.TemplateEngine.pdb
+bin\Release\RegexWizard.Framework.dll
+bin\Release\RegexWizard.Framework.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\RegexWizard.TemplateEngine.dll
+obj\Release\RegexWizard.TemplateEngine.pdb

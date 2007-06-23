@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://regexlib.com/webservices.asmx" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://regexlib.com/webservices.asmx" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://regexlib.com/webservices.asmx">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="getRegExpDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="regexpId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getRegExpDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getRegExpDetailsResult" type="s0:RegExpDetails" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RegExpDetails">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="user_id" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="regexp_id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="regular_expression" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="matches" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="not_matches" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="source" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="description" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="create_date" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="disable" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="rating" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="listRegExp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="keyword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="regexp_substring" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="min_rating" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="howmanyrows" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listRegExpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="listRegExpResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Save">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="patternInfo" type="s0:PatternInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="PatternInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PatternId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserInfo" type="s0:UserInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="ProviderId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="RegularExpression" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Matches" type="s0:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="NotMatches" type="s0:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Source" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="UserInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Ticket" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Surname" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SaveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveResult" type="s0:RegexResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RegexResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="PatternInformation" type="s0:PatternInfo" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="s0:RegexActionStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="RegexActionStatus">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="Inserted" />
+          <s:enumeration value="Updated" />
+          <s:enumeration value="Deleted" />
+          <s:enumeration value="Failed" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="RegExpDetails" nillable="true" type="s0:RegExpDetails" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="getRegExpDetailsSoapIn">
+    <part name="parameters" element="s0:getRegExpDetails" />
+  </message>
+  <message name="getRegExpDetailsSoapOut">
+    <part name="parameters" element="s0:getRegExpDetailsResponse" />
+  </message>
+  <message name="listRegExpSoapIn">
+    <part name="parameters" element="s0:listRegExp" />
+  </message>
+  <message name="listRegExpSoapOut">
+    <part name="parameters" element="s0:listRegExpResponse" />
+  </message>
+  <message name="SaveSoapIn">
+    <part name="parameters" element="s0:Save" />
+  </message>
+  <message name="SaveSoapOut">
+    <part name="parameters" element="s0:SaveResponse" />
+  </message>
+  <message name="getRegExpDetailsHttpGetIn">
+    <part name="regexpId" type="s:string" />
+  </message>
+  <message name="getRegExpDetailsHttpGetOut">
+    <part name="Body" element="s0:RegExpDetails" />
+  </message>
+  <message name="listRegExpHttpGetIn">
+    <part name="keyword" type="s:string" />
+    <part name="regexp_substring" type="s:string" />
+    <part name="min_rating" type="s:string" />
+    <part name="howmanyrows" type="s:string" />
+  </message>
+  <message name="listRegExpHttpGetOut">
+    <part name="Body" element="s0:DataSet" />
+  </message>
+  <message name="getRegExpDetailsHttpPostIn">
+    <part name="regexpId" type="s:string" />
+  </message>
+  <message name="getRegExpDetailsHttpPostOut">
+    <part name="Body" element="s0:RegExpDetails" />
+  </message>
+  <message name="listRegExpHttpPostIn">
+    <part name="keyword" type="s:string" />
+    <part name="regexp_substring" type="s:string" />
+    <part name="min_rating" type="s:string" />
+    <part name="howmanyrows" type="s:string" />
+  </message>
+  <message name="listRegExpHttpPostOut">
+    <part name="Body" element="s0:DataSet" />
+  </message>
+  <portType name="WebservicesSoap">
+    <operation name="getRegExpDetails">
+      <documentation>Returns information about a particular regular expression as a RegExpDetails struct object.</documentation>
+      <input message="s0:getRegExpDetailsSoapIn" />
+      <output message="s0:getRegExpDetailsSoapOut" />
+    </operation>
+    <operation name="listRegExp">
+      <documentation>Returns a dataset holding information about all of the regular expressions that matched the query provided.</documentation>
+      <input message="s0:listRegExpSoapIn" />
+      <output message="s0:listRegExpSoapOut" />
+    </operation>
+    <operation name="Save">
+      <documentation>Saves a pattern in the central repository.  If email which is passed in is not found, a new user is created, otherwise the is added against that user.</documentation>
+      <input message="s0:SaveSoapIn" />
+      <output message="s0:SaveSoapOut" />
+    </operation>
+  </portType>
+  <portType name="WebservicesHttpGet">
+    <operation name="getRegExpDetails">
+      <documentation>Returns information about a particular regular expression as a RegExpDetails struct object.</documentation>
+      <input message="s0:getRegExpDetailsHttpGetIn" />
+      <output message="s0:getRegExpDetailsHttpGetOut" />
+    </operation>
+    <operation name="listRegExp">
+      <documentation>Returns a dataset holding information about all of the regular expressions that matched the query provided.</documentation>
+      <input message="s0:listRegExpHttpGetIn" />
+      <output message="s0:listRegExpHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="WebservicesHttpPost">
+    <operation name="getRegExpDetails">
+      <documentation>Returns information about a particular regular expression as a RegExpDetails struct object.</documentation>
+      <input message="s0:getRegExpDetailsHttpPostIn" />
+      <output message="s0:getRegExpDetailsHttpPostOut" />
+    </operation>
+    <operation name="listRegExp">
+      <documentation>Returns a dataset holding information about all of the regular expressions that matched the query provided.</documentation>
+      <input message="s0:listRegExpHttpPostIn" />
+      <output message="s0:listRegExpHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="WebservicesSoap" type="s0:WebservicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="getRegExpDetails">
+      <soap:operation soapAction="http://regexlib.com/webservices.asmx/getRegExpDetails" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listRegExp">
+      <soap:operation soapAction="http://regexlib.com/webservices.asmx/listRegExp" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Save">
+      <soap:operation soapAction="http://regexlib.com/webservices.asmx/Save" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="WebservicesHttpGet" type="s0:WebservicesHttpGet">
+    <http:binding verb="GET" />
+    <operation name="getRegExpDetails">
+      <http:operation location="/getRegExpDetails" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="listRegExp">
+      <http:operation location="/listRegExp" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="WebservicesHttpPost" type="s0:WebservicesHttpPost">
+    <http:binding verb="POST" />
+    <operation name="getRegExpDetails">
+      <http:operation location="/getRegExpDetails" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="listRegExp">
+      <http:operation location="/listRegExp" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Webservices">
+    <port name="WebservicesSoap" binding="s0:WebservicesSoap">
+      <soap:address location="http://www.regexlib.com/webservices.asmx" />
+    </port>
+    <port name="WebservicesHttpGet" binding="s0:WebservicesHttpGet">
+      <http:address location="http://www.regexlib.com/webservices.asmx" />
+    </port>
+    <port name="WebservicesHttpPost" binding="s0:WebservicesHttpPost">
+      <http:address location="http://www.regexlib.com/webservices.asmx" />
+    </port>
+  </service>
+</definitions>

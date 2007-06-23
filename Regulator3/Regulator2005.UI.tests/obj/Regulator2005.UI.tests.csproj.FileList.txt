@@ -1,0 +1,13 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Regulator2005.UI.tests.dll
+bin\Debug\Regulator2005.UI.tests.pdb
+bin\Debug\\nunit.framework.dll
+bin\Debug\\Regulator2005.Core.dll
+bin\Debug\\nunit.framework.pdb
+bin\Debug\\Regulator2005.Core.pdb
+obj\Debug\Regulator2005.UI.tests.dll
+obj\Debug\Regulator2005.UI.tests.pdb
+bin\Debug\\Regulator2005.Framework.dll
+bin\Debug\\Regulator.2005.Providers.DotNet.dll
+bin\Debug\\Regulator.2005.Providers.DotNet.pdb
+bin\Debug\\Regulator2005.Framework.pdb

@@ -1,0 +1,9 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="Regulator.2005.Providers.DotNetTests\bin\Debug\Regulator.2005.Providers.DotNetTests.dll" />
+    <assembly path="Regulator2005.Tests\bin\Debug\Regulator2005.Tests.dll" />
+    <assembly path="Regulator2005.UI.tests\bin\Debug\Regulator2005.UI.tests.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto" />
+</NUnitProject>

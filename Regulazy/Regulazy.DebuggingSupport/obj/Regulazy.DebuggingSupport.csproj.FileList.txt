@@ -1,0 +1,15 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Regulazy.DebuggingSupport.Properties.Resources.resources
+obj\Debug\Regulazy.DebuggingSupport.csproj.GenerateResource.Cache
+bin\Debug\Regulazy.DebuggingSupport.dll
+bin\Debug\Regulazy.DebuggingSupport.pdb
+bin\Debug\RegexWizard.Framework.dll
+bin\Debug\ReguLazy.exe
+bin\Debug\Regulazy.UISupport.dll
+bin\Debug\RegexWizard.TemplateEngine.dll
+bin\Debug\RegexWizard.TemplateEngine.pdb
+bin\Debug\RegexWizard.Framework.pdb
+bin\Debug\Regulazy.UISupport.pdb
+bin\Debug\ReguLazy.pdb
+obj\Debug\Regulazy.DebuggingSupport.dll
+obj\Debug\Regulazy.DebuggingSupport.pdb
