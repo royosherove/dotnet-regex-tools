@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TeamAgile.RegexKit.RegexVisualizers">
+</Property><Property Name="Solution File" Value="c:\GlobalShare\InSync\Code\OshroveSVN\RegexTools\Vis\TeamAgile.RegexKit.RegexVisualizers_Source\TeamAgile.RegexKit.RegexVisualizers.sln">
+</Property><Property Name="Date" Value="שבת 23 יוני 2007">
+</Property><Property Name="Time" Value="20:57:45">
+</Property></Properties><Event ErrorLevel="0" Project="TeamAgile.RegexKit.RegexVisualizers" Source="TeamAgile.RegexKit.RegexVisualizers.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TeamAgile.RegexKit.RegexVisualizers" Source="TeamAgile.RegexKit.RegexVisualizers.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TeamAgile.RegexKit.RegexVisualizers" Source="TeamAgile.RegexKit.RegexVisualizers.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

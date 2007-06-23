@@ -1,0 +1,5 @@
+bin\Debug\TeamAgile.RegexKit.Common.dll
+bin\Debug\TeamAgile.RegexKit.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TeamAgile.RegexKit.Common.dll
+obj\Debug\TeamAgile.RegexKit.Common.pdb

@@ -1,0 +1,21 @@
+// Assembly TeamAgile.RegexKit.RegexVisualizers, Version 1.0.0.0
+
+[assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
+[assembly: System.Diagnostics.DebuggerVisualizer(typeof(TeamAgile.RegexKit.RegexVisualizers.RegexObjectVisualizer), Target=typeof(System.Text.RegularExpressions.Regex), Description="View Regex and options")]
+[assembly: System.Diagnostics.DebuggerVisualizer(typeof(TeamAgile.RegexKit.RegexVisualizers.MatchVisualizer), Target=typeof(System.Text.RegularExpressions.Match), Description="View Regex Match Object")]
+[assembly: System.Reflection.AssemblyFileVersion("1.0.0.0")]
+[assembly: System.Runtime.InteropServices.Guid("17158bbd-3647-4be6-93aa-5f68f30773c7")]
+[assembly: System.Runtime.InteropServices.ComVisible(false)]
+[assembly: System.Reflection.AssemblyTrademark("")]
+[assembly: System.Reflection.AssemblyCopyright("Copyright \x00a9  2005 Roy Osherove")]
+[assembly: System.Reflection.AssemblyProduct("Team Agile Regex Kit")]
+[assembly: System.Reflection.AssemblyCompany("Team Agile")]
+[assembly: System.Reflection.AssemblyConfiguration("")]
+[assembly: System.Reflection.AssemblyDescription("Regex Kit by Team Agile")]
+[assembly: System.Reflection.AssemblyTitle("Regex Kit")]
+[assembly: System.Diagnostics.DebuggerVisualizer(typeof(TeamAgile.RegexKit.RegexVisualizers.MatchCollectionVisualizer), Target=typeof(System.Text.RegularExpressions.MatchCollection), Description="View Regex Matches")]
+[assembly: System.Diagnostics.DebuggerVisualizer(typeof(TeamAgile.RegexKit.RegexVisualizers.RegexStringVisualizer), Target=typeof(string), Description="View as Regular Expression")]
+[assembly: System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
+[assembly: System.Runtime.CompilerServices.CompilationRelaxations(8)]
+[assembly: System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)]
+
