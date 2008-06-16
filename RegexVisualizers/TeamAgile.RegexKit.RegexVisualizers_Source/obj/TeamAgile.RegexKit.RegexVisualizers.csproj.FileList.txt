@@ -1,6 +1,0 @@
-obj\Debug\ResolveAssemblyReference.cache
-bin\Debug\TeamAgile.RegexKit.RegexVisualizers.dll
-bin\Debug\TeamAgile.RegexKit.RegexVisualizers.pdb
-bin\Debug\TeamAgile.RegexKit.UiKit.dll
-obj\Debug\TeamAgile.RegexKit.RegexVisualizers.dll
-obj\Debug\TeamAgile.RegexKit.RegexVisualizers.pdb

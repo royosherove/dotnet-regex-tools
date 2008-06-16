@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamAgile.RegexKit.RegexVisualizers", "TeamAgile.RegexKit.RegexVisualizers_Source\TeamAgile.RegexKit.RegexVisualizers.csproj", "{41F8D75D-7D27-4100-BF32-923779A41364}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamAgile.RegexKit.Common", "TeamAgile.RegexKit.Common_Source\TeamAgile.RegexKit.Common.csproj", "{7E9F601A-056A-46A3-B4A1-1CA3BA01EEEB}"
