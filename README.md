@@ -1,4 +1,3 @@
 dotnet-regex-tools
 ==================
-
-old regex tools from my .net days
+This project is licensed under the Apache 2 License.
